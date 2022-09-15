@@ -21,6 +21,6 @@ from lists import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("lists.urls")),
+    path("lists/", include("lists.urls")),
     #re_path(r'^$',views.home_page,name="home")
 ]
