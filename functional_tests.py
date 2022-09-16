@@ -18,5 +18,6 @@ class NewVisitorTest(unittest.TestCase):
         self.fail('Finish the test!')
         # She is invited to enter a to-do item straight away
 
+
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
